@@ -1,10 +1,9 @@
 <h2 class="titulo">SpotiFree</h2>
     <div class="inputs">
           E-mail: <input type="text"> <br/> <br/>
-          Senha:  <input type="text"> <br/><br/>
+          Senha:  <input type="password"> <br/><br/>
           Manter-me conectado <input type="checkbox"><br/><br/>
           <div class="divButton">
-            <input type="button" value="Log in"class="button" >
-            <a routerLink="/home">home</a>
-            <input type="button" value="Sig in" class="button">
+            <input type="button" value="Log in"class="button" (click)="logIn()" >
+            <input type="button" value="Sig in" class="button" (click)="sigIn()">
           </div>
