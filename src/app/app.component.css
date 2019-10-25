@@ -1,16 +1,14 @@
+.head{
+    border: gray 5px;
+}
 
-.titulo{
-    text-align: center;
-    color: #32c924;
-}
-.inputs{
-    padding-left: 30%;
-    padding-top: 2%;
-    border: 5%;
-}
-.button{
+
+.label{
     float: right;
 }
-.divButton{
-    width: 50%;
+
+.img{
+    height: 150px;
+    width: 150px;
+    padding: 6px;
 }
