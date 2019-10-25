@@ -1,0 +1,15 @@
+.titulo{
+    text-align: center;
+     color: #32c924;
+ }
+ .inputs{
+ 
+     padding-left: 30%;
+     padding-top: 2%;
+ }
+ .button{
+     float: right;
+ }
+ .divButton{
+     width: 50%;
+ }
