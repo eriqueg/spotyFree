@@ -3,9 +3,10 @@
     color: #32c924;
     }
     
-/* .inputs{
-     padding: 40%; 
-} */
+.inputs{
+     padding-left: 20%; 
+     margin-left: 10%;
+} 
 
 .input{
     width: 60%;
