@@ -26,6 +26,14 @@
     
     
 }
+.divBlock{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+
+
+}
 .imgPlay{
   width: 40%;
   padding: 5%; 
