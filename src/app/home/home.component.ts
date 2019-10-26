@@ -15,6 +15,10 @@ export class HomeComponent implements OnInit {
     
   }
 
+  inscreverse(){
+    this.router.navigate(['registry'])
+  }
+
   login(){
     this.router.navigate(['login'])
   }
