@@ -3,7 +3,10 @@
     <div class="inputs">
           E-mail: <input type="text" class="inputs"> <br/> <br/>
           Senha:  <input type="password" class="inputs"> <br/><br/>
-          Manter-me conectado <input type="checkbox"><br/><br/>
+            <label>
+            <input type="checkbox" checked="checked" class="filled-in"/>
+            <span>Manter-me conectado</span>
+          </label><br/><br/>
           <div class="divButton">
             <input type="button" value="Log in"class="btn" id="button-login" (click)="logIn()" >
             <input type="button" value="Sig in" class="btn" id="button-registry" (click)="sigIn()">
