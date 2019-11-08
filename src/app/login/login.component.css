@@ -6,9 +6,15 @@
      margin-left: 10%;
      padding-left: 30%;
      padding-top: 2%;
+    width: auto !important;
  }
- .button{
-     float: right;
+ #button-login{
+    float: right;
+    background-color:  #3576e6; 
+ }
+ #button-registry{
+    float: right;
+    background-color: #32c924;
  }
  .divButton{
      width: 50%;

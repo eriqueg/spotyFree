@@ -1,10 +1,11 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <h2 class="titulo">SpotiFree</h2>
     <div class="inputs">
-          E-mail: <input type="text"> <br/> <br/>
-          Senha:  <input type="password"> <br/><br/>
+          E-mail: <input type="text" class="inputs"> <br/> <br/>
+          Senha:  <input type="password" class="inputs"> <br/><br/>
           Manter-me conectado <input type="checkbox"><br/><br/>
           <div class="divButton">
-            <input type="button" value="Log in"class="button" (click)="logIn()" >
-            <input type="button" value="Sig in" class="button" (click)="sigIn()">
+            <input type="button" value="Log in"class="btn" id="button-login" (click)="logIn()" >
+            <input type="button" value="Sig in" class="btn" id="button-registry" (click)="sigIn()">
           </div>
     </div>
