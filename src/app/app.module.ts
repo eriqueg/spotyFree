@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { RegistryComponent } from './registry/registry.component';
 import { StartComponent } from './start/start.component';
+import { AmadorComponent } from './amador/amador.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { StartComponent } from './start/start.component';
     HomeComponent,
     LoginComponent,
     RegistryComponent,
-    StartComponent
+    StartComponent,
+    AmadorComponent
   ],
   imports: [
     BrowserModule,

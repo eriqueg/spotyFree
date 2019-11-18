@@ -5,12 +5,14 @@ import { Routes, RouterModule } from "@angular/router";
 import { LoginComponent } from './login/login.component';
 import { RegistryComponent } from './registry/registry.component';
 import { StartComponent } from './start/start.component';
+import { AmadorComponent } from './amador/amador.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent},
   { path: 'registry', component: RegistryComponent},
   { path: 'start', component: StartComponent},
+  { path: 'amador', component: AmadorComponent},
   { path: '', component: HomeComponent}
 ];
 
